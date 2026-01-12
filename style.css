@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background:#003366;
+    color:white;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo-area{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-area img{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:white;
+    padding:3px;
+}
+
+.class-range{
+    font-size:14px;
+    color:#ffdd00;
+}
+
+header nav a{
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.home{
+    height:70vh;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1");
+    background-size:cover;
+    color:white;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:20px;
+}
+
+.section{
+    padding:40px 20px;
+    max-width:900px;
+    margin:auto;
+}
+
+.gray{
+    background:#f2f2f2;
+}
+
+.section h2{
+    margin-bottom:15px;
+    color:#003366;
+}
+
+.section ul li{
+    margin:8px 0;
+}
+
+.headmaster-box{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.headmaster-img{
+    width:220px;
+    border-radius:10px;
+    filter:brightness(1.1) contrast(1.1);
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.gallery-img{
+    width:100%;
+    max-width:900px;
+    border-radius:10px;
+    margin-top:15px;
+    filter:brightness(1.1) contrast(1.05);
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.caption{
+    margin-top:10px;
+    font-style:italic;
+}
+
+.social a{
+    display:inline-block;
+    margin-right:15px;
+    margin-top:10px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#003366;
+}
+
+form{
+    margin-top:20px;
+}
+
+form input, form textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+button{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
